@@ -1,0 +1,23 @@
+I implemented this scrapper because I was sick and tired of looking up episode titles of my favorite TV shows and renaming every file manually.
+This scrapper will browse multiple IMDB pages and get infos about the episodes.
+
+Currently the following shows will be processed:
+-Big Bang Theory
+-Californication
+-30 Rock
+-How I Met Your Mother
+-Scrubs
+-Fringe
+More might come. My preferred solution would be to hand over the IMDB link to a specific show via the API, but I haven't found out how to do that yet.
+Currently, the following data keys will be generated:
+-series_title
+-nr
+-season
+-episode
+-airdate
+-link
+-airdate
+-episode_title
+-description
+
+I hope this is helpful to someone else.
