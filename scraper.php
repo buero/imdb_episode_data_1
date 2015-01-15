@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
 /* This Scrapper will extract data about shows from IMDB. I use this in conjunction with awk to rename digital recordings of some series I watch and to provide additional data */
 /* A fair warning: my regexps are a lot more specific than I'd like. Small changes to the IMDB site will result in badass failure of everything. I mean it: the universe will fold, time will stop, milk will turn sour, coke will turn into pepsi. You get the idea */
 /* For a Bash Skript doing exactly the same thing better, check out the end of this page. */
